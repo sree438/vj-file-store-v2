@@ -13,14 +13,14 @@ def is_enabled(value, default):
         return default
 
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "6674102"))
+API_HASH = environ.get("API_HASH", "1ca8fedb9d767db9f162054fc42bc4b4")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7736569485:AAEA9F26eCFfCJsaiP9UortK0mmAy_iDoBA")
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002118758353').split()]
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002682128156').split()]
 
-PICS = (environ.get('PICS', 'https://freeimage.host/i/d10VHep')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1178233430 1160901162').split()]
+PICS = (environ.get('PICS', 'https://files.catbox.moe/iida7a.jpg')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1324630114').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "R3volutionary_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -31,7 +31,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://ZahidNazir:ZahidNazir@1stcluster.1p0dlne.mongodb.net/?retryWrites=true&w=majority&appName=1stcluster")
+DB_URI = environ.get("DB_URI", "mongodb+srv://sreeharipradeep38:Fxfkkqb1deS33vDA@cluster0.uei2df5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "EmpireUsers")
 
 # Auto Delete Information
@@ -42,7 +42,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "2")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "120")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002230949609"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002546287361"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
